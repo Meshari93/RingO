@@ -150,6 +150,8 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         ConsoleTVs\Charts\ChartsServiceProvider::class,
+        TwigBridge\ServiceProvider::class,
+
 
 
 
@@ -211,6 +213,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Charts' => ConsoleTVs\Charts\Facades\Charts::class,
+        'Twig' => TwigBridge\Facade\Twig::class,
 
 
     ],
